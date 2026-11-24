@@ -1,9 +1,9 @@
-# Wi-Fi Extender (Android → iPhone)
+# Wi-Fi Extender Android App
 
 Turns an old Android phone into a Wi-Fi extender, no root needed.
 
 **How it works:** the old phone stays connected to your router and creates its own
-Wi-Fi Direct network (it looks like a normal password-protected Wi-Fi to the iPhone).
+Wi-Fi Direct network (it looks like a normal password-protected Wi-Fi).
 A built-in proxy forwards the iPhone's traffic to the router. HTTPS stays end-to-end
 encrypted; the old phone only passes the bytes along.
 
@@ -61,7 +61,7 @@ The iPhone remembers the network and proxy, so next time just press Start on the
 ## Getting the maximum speed
 
 **The hard limit:** the phone has one Wi-Fi radio. Everything is received from the router
-and then sent again to the iPhone on the same radio, so the iPhone gets at most about **half**
+and then sent again to the device on the same radio, so the iPhone gets at most about **half**
 of the old phone's own speed. The app is built to get as close to that as possible:
 
 | What the app does | Why it's faster |
